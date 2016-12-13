@@ -12,7 +12,23 @@
 		E0F717541E009BBD007928F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F717521E009BBD007928F8 /* Main.storyboard */; };
 		E0F717561E009BBD007928F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F717551E009BBD007928F8 /* Assets.xcassets */; };
 		E0F717591E009BBD007928F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F717571E009BBD007928F8 /* LaunchScreen.storyboard */; };
+		E0F717611E009CD0007928F8 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F717601E009CD0007928F8 /* Mapbox.framework */; };
+		E0F717621E009CD0007928F8 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F717601E009CD0007928F8 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0F717631E009CD0007928F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E0F717621E009CD0007928F8 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E0F7174B1E009BBD007928F8 /* MotoRanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoRanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +38,7 @@
 		E0F717551E009BBD007928F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F717581E009BBD007928F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0F7175A1E009BBD007928F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F717601E009CD0007928F8 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F717611E009CD0007928F8 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +56,7 @@
 		E0F717421E009BBD007928F8 = {
 			isa = PBXGroup;
 			children = (
+				E0F717601E009CD0007928F8 /* Mapbox.framework */,
 				E0F7174D1E009BBD007928F8 /* MotoRanger */,
 				E0F7174C1E009BBD007928F8 /* Products */,
 			);
@@ -74,6 +93,7 @@
 				E0F717471E009BBD007928F8 /* Sources */,
 				E0F717481E009BBD007928F8 /* Frameworks */,
 				E0F717491E009BBD007928F8 /* Resources */,
+				E0F717631E009CD0007928F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +282,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HE7TTXQ758;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MotoRanger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoyUmali.MotoRanger;
@@ -275,6 +299,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HE7TTXQ758;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MotoRanger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoyUmali.MotoRanger;
