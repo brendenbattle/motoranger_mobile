@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0F7174F1E009BBD007928F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F7174E1E009BBD007928F8 /* AppDelegate.swift */; };
-		E0F717511E009BBD007928F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F717501E009BBD007928F8 /* ViewController.swift */; };
+		E0F717511E009BBD007928F8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F717501E009BBD007928F8 /* MainVC.swift */; };
 		E0F717541E009BBD007928F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F717521E009BBD007928F8 /* Main.storyboard */; };
 		E0F717561E009BBD007928F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F717551E009BBD007928F8 /* Assets.xcassets */; };
 		E0F717591E009BBD007928F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F717571E009BBD007928F8 /* LaunchScreen.storyboard */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		E0F7174B1E009BBD007928F8 /* MotoRanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoRanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F7174E1E009BBD007928F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0F717501E009BBD007928F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0F717501E009BBD007928F8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		E0F717531E009BBD007928F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0F717551E009BBD007928F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F717581E009BBD007928F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E0F7174E1E009BBD007928F8 /* AppDelegate.swift */,
-				E0F717501E009BBD007928F8 /* ViewController.swift */,
+				E0F717501E009BBD007928F8 /* MainVC.swift */,
 				E0F717521E009BBD007928F8 /* Main.storyboard */,
 				E0F717551E009BBD007928F8 /* Assets.xcassets */,
 				E0F717571E009BBD007928F8 /* LaunchScreen.storyboard */,
@@ -157,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F717511E009BBD007928F8 /* ViewController.swift in Sources */,
+				E0F717511E009BBD007928F8 /* MainVC.swift in Sources */,
 				E0F7174F1E009BBD007928F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +330,7 @@
 				E0F7175F1E009BBD007928F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

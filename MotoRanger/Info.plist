@@ -4,6 +4,8 @@
 <dict>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1IjoiamlicmFsdGEiLCJhIjoiY2l3bWx0YWh6MDA4YTJ6cDc4ZThldjNsaSJ9.eZoHliP0PcKBXrmFzWxvow</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Shows your location on the map and helps improve OpenStreetMap.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
